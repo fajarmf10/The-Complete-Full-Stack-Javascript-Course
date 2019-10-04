@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
+import Services from './Components/Common/Services';
 
 class App extends Component {
   render() {
@@ -20,6 +21,10 @@ class App extends Component {
             <Route
               path="/about"
               component={About}
+            />
+            <Route
+              path="/services"
+              component={Services}
             />
         </PageWrapper>
       </Router>

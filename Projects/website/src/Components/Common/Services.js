@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import SingleService from './SingleService';
+import image from  '../Assets/Images/services.jpg';
+import Header from '../Common/Header';
 
 const services = [
     {title: 'E-Commerce', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.", icon: "fa-shopping-cart"},
@@ -9,8 +11,8 @@ const services = [
 
 class Services extends Component{
     render(){
-
         return(
+            <div>
             <section className="page-section" id="services">
                 <div className="container">
                 <div className="row">
@@ -26,6 +28,7 @@ class Services extends Component{
                 </div>
                 </div>
             </section>
+            </div>
         )
     }
 }

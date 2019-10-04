@@ -3,6 +3,9 @@ import Header from '../Common/Header';
 import image from  '../Assets/Images/dota.png';//'../assets/img/dota.png';
 
 import Services from '../Common/Services';
+import Portofolio from '../Common/Portofolio';
+import AboutDesc from '../Common/AboutDesc';
+import Team from '../Common/Team';
 
 class Home extends Component{
     render(){
@@ -17,6 +20,9 @@ class Home extends Component{
                 image={image}
                 />
                 <Services />
+                <Portofolio />
+                <AboutDesc />
+                <Team/>
             </div>
         );
     }

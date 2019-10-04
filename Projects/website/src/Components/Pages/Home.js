@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Header from '../Common/Header';
 import image from  '../Assets/Images/dota.png';//'../assets/img/dota.png';
 
+import Services from '../Common/Services';
+
 class Home extends Component{
     render(){
         return(
@@ -13,7 +15,8 @@ class Home extends Component{
                 link="/services"
                 showButton={true}
                 image={image}
-                ></Header>
+                />
+                <Services />
             </div>
         );
     }

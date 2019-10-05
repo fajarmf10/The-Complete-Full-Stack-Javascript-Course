@@ -3,18 +3,18 @@ import React, {Component} from 'react';
 class PortofolioItem extends Component{
     render(){
         return(
-            <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
+            <div className="col-md-4 col-sm-6 portfolio-item">
+            <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                    <i className="fas fa-plus fa-3x"></i>
                 </div>
                 </div>
-                <img class="img-fluid" src={this.props.image} alt=""/>
+                <img className="img-fluid" src={this.props.image} alt=""/>
             </a>
-            <div class="portfolio-caption">
+            <div className="portfolio-caption">
                 <h4>{this.props.title}</h4>
-                <p class="text-muted">{this.props.subtitle}</p>
+                <p className="text-muted">{this.props.subtitle}</p>
             </div>
             </div>
         );

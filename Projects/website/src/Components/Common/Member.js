@@ -3,25 +3,25 @@ import React, {Component} from 'react';
 class Member extends Component{
     render(){
         return(
-            <div class="col-sm-4">
-            <div class="team-member">
-                <img class="mx-auto rounded-circle" src={this.props.image} alt=""/>
+            <div className="col-sm-4">
+            <div className="team-member">
+                <img className="mx-auto rounded-circle" src={this.props.image} alt=""/>
                 <h4>{this.props.name}</h4>
-                <p class="text-muted">{this.props.role}</p>
-                <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
+                <p className="text-muted">{this.props.role}</p>
+                <ul className="list-inline social-buttons">
+                <li className="list-inline-item">
                     <a href="#">
-                    <i class="fab fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                     </a>
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                     <a href="#">
-                    <i class="fab fa-facebook-f"></i>
+                    <i className="fab fa-facebook-f"></i>
                     </a>
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                     <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
+                    <i className="fab fa-linkedin-in"></i>
                     </a>
                 </li>
                 </ul>

@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 //import logo from './logo.svg';
 //import './App.css';
 import PageWrapper from './Components/PageWrapper';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
-import Services from './Components/Common/Services';
+import Contact from './Components/Pages/Contact';
 
 class App extends Component {
   render() {
@@ -23,8 +23,8 @@ class App extends Component {
               component={About}
             />
             <Route
-              path="/services"
-              component={Services}
+              path="/contact"
+              component={Contact}
             />
         </PageWrapper>
       </Router>

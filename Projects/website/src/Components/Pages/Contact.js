@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Field from '../Common/Field';
+import {withFormik} from 'formik';
 
 const fields =  {
     sections: [
@@ -76,4 +77,6 @@ class Contact extends Component{
     }
 }
 
-export default Contact;
+export default withFormik({
+    
+})(Contact);
